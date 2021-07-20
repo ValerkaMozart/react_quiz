@@ -1,0 +1,36 @@
+.FinishedQuiz {
+    padding: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 0 10px;
+}
+
+.FinishedQuiz ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.FinishedQuiz ul li i {
+    margin-left: 10px;
+
+}
+.FinishedQuiz button {
+    background: cadetblue;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0px 0px 5px black;
+    transition: all 0.5s;
+}
+.FinishedQuiz button:hover {
+    background-color: #477678;
+}
+.error {
+    color: red;
+}
+.success {
+    color: green;
+}
